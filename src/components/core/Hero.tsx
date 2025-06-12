@@ -44,6 +44,7 @@ const Hero = () => {
 			
 			setUsers(usersData);
 			setDreams(dreamsData);
+			setTotalVolume(0);
 			
 			//const totalVolume = dreamsData.reduce((acc: number, dream: Dream) => acc + (dream.price ?? 0), 0);
 			//setTotalVolume(totalVolume);
